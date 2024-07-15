@@ -7,4 +7,4 @@ Human Interpretation: Morse code can be directly interpreted by trained individu
 
  Morse Code was invented by Samuel F.B. Morse and Alfred Vail in the early 1830s as a means of transmitting messages via telegraph wires. Its simplicity and reliability made it the go-to method for long-distance communication during the 19th and 20th centuries12. Before its development, communication over extended distances could have been much smoother. The code sought to distill language into a series of dots and dashes, making it feasible for swift electronic transmission.
 
- 
+ Andile
