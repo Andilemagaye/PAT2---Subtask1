@@ -1,0 +1,15 @@
+/ morse_code.cpp
+
+// ... (same as initial commit)
+
+std::string textToMorse(const std::string& text) {
+    std::string morseMessage;
+    for (char c : text) {
+        if (isalpha(c)) {
+            morseMessage += morseMap[toupper(c)] + " ";
+        } else {
+            // Handle non-alphabetic characters (e.g., spaces)
+            morseMessage += " ";
+        }
+    }
+    return morseMessage;
