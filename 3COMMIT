@@ -1,0 +1,14 @@
+        total = 0;
+        cout << "\nEXPERIMENT " << i << endl;
+        cout << "============\n";
+
+        for (j = 1; j <= NUM_READINGS; j++) {
+            cout << "Enter reading " << j << " value: ";
+            cin >> readingValue;
+            total += readingValue;
+        }
+
+        average = total / NUM_READINGS;
+
+        // Incorporate evaluation logic directly
+        if (average < 100) {
